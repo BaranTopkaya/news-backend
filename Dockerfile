@@ -17,4 +17,5 @@ COPY . .
 RUN ./mvnw clean package -DskipTests
 
 # Uygulama jar'ını çalıştır
-CMD ["java", "-jar", "target/backend-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "target/demo-0.0.1-SNAPSHOT.jar"]
+
